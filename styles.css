@@ -1,0 +1,36 @@
+#transition-container {
+    width: 10vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  button {
+    border-radius: 6px;
+    border: none;
+    background-color: #047a27;
+    color: white;
+    font-size: 18px;
+    padding: 16px 24px;
+    text-align: left;
+  }
+  
+  /* SOLUTION */
+  
+  button {
+    transition: transform .3s ease-in-out;
+  }
+  
+  button:hover {
+    transform: scale(1.2)
+  }
+body {
+    color: black;
+}
+
+h1 {
+    color: black;
+}
